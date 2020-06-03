@@ -86,7 +86,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("images/bg.jpg");
+    background: url("imagens/bg.jpg");
     padding: 40px 0;
 }
 
@@ -99,7 +99,7 @@ footer {
 /*css da página de contato*/
 
 form {
-    margin: 40px 10px;
+    margin: 40px 15px;
 }
 
 form label, form legend{
@@ -120,6 +120,7 @@ form label, form legend{
 }
 
 .enviar {
+    margin: 30px;
     width: 40%;
     padding: 15px 0;
     background: orange;
@@ -134,11 +135,11 @@ form label, form legend{
 
 .enviar:hover {
     background: darkorange;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 table {
-    margin:20px 0 40px 10px;
+    margin:20px 0 40px 15px;
 }
 
 thead {
