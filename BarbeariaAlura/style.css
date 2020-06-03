@@ -1,3 +1,5 @@
+/* css da página de produtos */
+
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -84,7 +86,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background: url("images/bg.jpg");
     padding: 40px 0;
 }
 
@@ -94,9 +96,10 @@ footer {
     margin: 20px 0 0;
 }
 
+/*css da página de contato*/
 
 form {
-    margin: 40px 0;
+    margin: 40px 10px;
 }
 
 form label, form legend{
@@ -135,7 +138,7 @@ form label, form legend{
 }
 
 table {
-    margin:20px 0 40px;
+    margin:20px 0 40px 10px;
 }
 
 thead {
