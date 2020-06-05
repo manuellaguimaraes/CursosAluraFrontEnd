@@ -1,13 +1,15 @@
 export class Cliente {
-    nome;
-    _cpf;
-
     get cpf(){
         return this._cpf;
     }
 
-    constructor(nome, cpf){  //não poderá ser alterado
+    constructor(nome, cpf, senha){  //não poderá ser alterado
         this.nome = nome;
         this._cpf = cpf;
+        this._senha = senha;
+    }
+
+    autenticar(){
+        return true;
     }
 }
