@@ -1,0 +1,12 @@
+// Variáves SASS //
+
+$cor-padrao: darken(#c24e4b, 20); //deixando a cor 20% mais escura
+$cor-auxiliar: lighten(#1e2c35, 10); //deixando a cor 10% mais clara
+$cor-branca: #fff;
+
+//$cor-padrao: adjust-hue(#c24e4b, 20); //alterando a tonalidade em 20%
+//$cor-padrao: saturate(#c24e4b, 20); //saturando a cor em 20% 
+//$cor-auxiliar: complement(#1e2c35); //alterando para cor complementar
+
+$mq-mobile: "(max-width: 980px)"; //parâmetro do media-query
+$tamanho-fonte-padrao: 16px;
